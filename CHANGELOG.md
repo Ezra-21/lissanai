@@ -14,3 +14,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Middleware for protected routes
 - NextAuth session configuration
+
+## [0.1.2] - 2026-02-14
+### Added
+- Login and signup page UI
+- Form validation with Zod schemas
