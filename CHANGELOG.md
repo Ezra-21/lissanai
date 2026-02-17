@@ -19,3 +19,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Login and signup page UI
 - Form validation with Zod schemas
+
+## [0.1.3] - 2026-02-17
+### Added
+- Navigation header and footer components
+- Responsive hamburger menu for mobile
