@@ -24,3 +24,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Navigation header and footer components
 - Responsive hamburger menu for mobile
+
+## [0.1.4] - 2026-02-18
+### Added
+- Authentication API routes (register, forgot-password, reset-password)
+- JWT session tokens via NextAuth credentials provider
