@@ -29,3 +29,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Authentication API routes (register, forgot-password, reset-password)
 - JWT session tokens via NextAuth credentials provider
+
+## [0.2.0] - 2026-02-19
+### Added
+- Mock interview page with job category selection
+- AI-powered Q&A session flow with streaming responses
