@@ -34,3 +34,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Mock interview page with job category selection
 - AI-powered Q&A session flow with streaming responses
+
+## [0.2.1] - 2026-02-20
+### Added
+- Email drafting page with Amharic-to-English AI translation
+- Template selection with variable substitution
