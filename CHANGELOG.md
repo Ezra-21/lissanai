@@ -39,3 +39,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Email drafting page with Amharic-to-English AI translation
 - Template selection with variable substitution
+
+## [0.2.2] - 2026-02-24
+### Added
+- Interactive quiz component with progress bar and scoring
+- Lesson completion celebration animation
