@@ -44,3 +44,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Interactive quiz component with progress bar and scoring
 - Lesson completion celebration animation
+
+## [0.2.3] - 2026-02-25
+### Fixed
+- Authentication redirect loop on protected pages
+- Session token expiry not handled gracefully
