@@ -49,3 +49,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Authentication redirect loop on protected pages
 - Session token expiry not handled gracefully
+
+## [0.2.4] - 2026-02-26
+### Added
+- User dashboard with activity heatmap
+- Daily goal tracker and streak counter
