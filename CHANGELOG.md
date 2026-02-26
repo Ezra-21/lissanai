@@ -54,3 +54,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - User dashboard with activity heatmap
 - Daily goal tracker and streak counter
+
+## [0.2.5] - 2026-02-26
+### Added
+- User profile page with editable settings
+- Avatar upload and display
