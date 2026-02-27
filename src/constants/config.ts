@@ -47,3 +47,13 @@ export const INTERVIEW_CATEGORIES = [
 
 // Search
 export const SEARCH_DEBOUNCE_MS = 300;
+
+// Speech recognition
+export const SPEECH_RECOGNITION_LANGUAGE = "en-US";
+export const SPEECH_RECOGNITION_TIMEOUT_MS = 10_000;
+export const MIN_SPEECH_CONFIDENCE = 0.6;
+
+// Theme
+export const THEME_STORAGE_KEY = "lissanai-theme";
+export const THEMES = ["light", "dark", "system"] as const;
+export type Theme = (typeof THEMES)[number];
