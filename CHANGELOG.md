@@ -59,3 +59,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - User profile page with editable settings
 - Avatar upload and display
+
+## [0.2.6] - 2026-02-28
+### Fixed
+- Grammar clarity score returning NaN for short/punctuation-only texts
+- Score not clamped to 0-100 range
