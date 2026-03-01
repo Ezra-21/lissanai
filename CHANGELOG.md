@@ -64,3 +64,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Grammar clarity score returning NaN for short/punctuation-only texts
 - Score not clamped to 0-100 range
+
+## [0.3.0] - 2026-03-01
+### Added
+- RTK Query API slices for all backend endpoints
+- Optimistic updates for lesson completion and ratings
