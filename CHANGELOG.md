@@ -69,3 +69,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - RTK Query API slices for all backend endpoints
 - Optimistic updates for lesson completion and ratings
+
+## [0.3.1] - 2026-03-02
+### Fixed
+- Redux state hydration mismatch between SSR and client
+- Stale cache not invalidated after mutation
