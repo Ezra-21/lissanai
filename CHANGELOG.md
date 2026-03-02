@@ -74,3 +74,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Redux state hydration mismatch between SSR and client
 - Stale cache not invalidated after mutation
+
+## [0.3.2] - 2026-03-02
+### Added
+- Framer Motion page transition animations
+- AnimatePresence for smooth route changes
