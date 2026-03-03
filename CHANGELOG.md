@@ -79,3 +79,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Framer Motion page transition animations
 - AnimatePresence for smooth route changes
+
+## [0.3.3] - 2026-03-03
+### Added
+- Reusable UI component library (Button, Card, Input, Badge, Progress)
+- CVA-based variant system for consistent styling
