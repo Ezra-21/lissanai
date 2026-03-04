@@ -84,3 +84,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Reusable UI component library (Button, Card, Input, Badge, Progress)
 - CVA-based variant system for consistent styling
+
+## [0.3.4] - 2026-03-04
+### Changed
+- Mobile-first layout improvements across all pages
+- Tablet breakpoint adjustments for 768-1024px viewports
