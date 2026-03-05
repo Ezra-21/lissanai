@@ -89,3 +89,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Mobile-first layout improvements across all pages
 - Tablet breakpoint adjustments for 768-1024px viewports
+
+## [0.3.5] - 2026-03-05
+### Added
+- Loading skeleton components for async content areas
+- Shimmer effect for better perceived performance
