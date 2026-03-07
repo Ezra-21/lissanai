@@ -94,3 +94,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Loading skeleton components for async content areas
 - Shimmer effect for better perceived performance
+
+## [0.3.6] - 2026-03-07
+### Added
+- Toast notification system using react-hot-toast
+- Success, error, loading, and custom toast variants
