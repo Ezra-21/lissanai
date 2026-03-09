@@ -99,3 +99,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Toast notification system using react-hot-toast
 - Success, error, loading, and custom toast variants
+
+## [0.3.7] - 2026-03-09
+### Added
+- Admin dashboard with user list and content management
+- Paginated user table with search and filter
