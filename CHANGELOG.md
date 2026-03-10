@@ -104,3 +104,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Admin dashboard with user list and content management
 - Paginated user table with search and filter
+
+## [0.3.8] - 2026-03-10
+### Fixed
+- Session role not loaded correctly from JWT callback
+- Stale session data persisting after role change
