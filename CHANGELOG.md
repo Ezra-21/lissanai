@@ -109,3 +109,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Session role not loaded correctly from JWT callback
 - Stale session data persisting after role change
+
+## [0.3.9] - 2026-03-11
+### Added
+- Activity calendar heatmap (react-calendar-heatmap)
+- Daily activity logging for lessons, interviews, grammar checks
