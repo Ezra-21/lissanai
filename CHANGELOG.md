@@ -114,3 +114,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Activity calendar heatmap (react-calendar-heatmap)
 - Daily activity logging for lessons, interviews, grammar checks
+
+## [0.3.10] - 2026-03-12
+### Changed
+- Refined landing page hero section copy and layout
+- Added mascot animation with Framer Motion
