@@ -119,3 +119,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Refined landing page hero section copy and layout
 - Added mascot animation with Framer Motion
+
+## [0.3.11] - 2026-03-13
+### Added
+- i18n structure supporting English and Amharic
+- Language switcher in navigation bar
