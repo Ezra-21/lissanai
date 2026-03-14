@@ -124,3 +124,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - i18n structure supporting English and Amharic
 - Language switcher in navigation bar
+
+## [0.3.12] - 2026-03-14
+### Fixed
+- Email field validation not triggered on blur
+- Password confirmation mismatch error not shown
