@@ -129,3 +129,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Email field validation not triggered on blur
 - Password confirmation mismatch error not shown
+
+## [0.4.0] - 2026-03-16
+### Changed
+- Reorganized API routes following RESTful conventions
+- Separated data access layer from route handlers
