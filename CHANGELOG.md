@@ -134,3 +134,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Reorganized API routes following RESTful conventions
 - Separated data access layer from route handlers
+
+## [0.4.1] - 2026-03-18
+### Added
+- Daily streak tracking with automatic reset logic
+- Streak milestone badges: 7-day, 30-day, 100-day
