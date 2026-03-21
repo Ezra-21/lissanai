@@ -144,3 +144,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Memory leak in pronunciation recorder on component unmount
 - MediaStream tracks not stopped after recording ends
+
+## [0.4.3] - 2026-03-21
+### Added
+- Vocabulary builder module with word bank
+- Example sentences for each vocabulary word
