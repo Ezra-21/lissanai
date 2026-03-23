@@ -154,3 +154,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Dark mode with system preference detection
 - Theme persisted in localStorage across sessions
+
+## [0.4.5] - 2026-03-23
+### Fixed
+- Email draft losing formatting when switching templates
+- Variable substitution not escaping HTML special characters
