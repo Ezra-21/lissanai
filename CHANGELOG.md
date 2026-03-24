@@ -159,3 +159,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Email draft losing formatting when switching templates
 - Variable substitution not escaping HTML special characters
+
+## [0.4.6] - 2026-03-24
+### Added
+- Phoneme-level pronunciation scoring with visual breakdown
+- Accuracy, fluency, and completeness score bars
