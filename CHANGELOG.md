@@ -164,3 +164,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Phoneme-level pronunciation scoring with visual breakdown
 - Accuracy, fluency, and completeness score bars
+
+## [0.4.7] - 2026-03-27
+### Fixed
+- Mobile virtual keyboard pushing layout on iOS Safari
+- Input focus causing unexpected viewport scroll jump
