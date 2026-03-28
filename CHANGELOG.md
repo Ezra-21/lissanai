@@ -169,3 +169,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Mobile virtual keyboard pushing layout on iOS Safari
 - Input focus causing unexpected viewport scroll jump
+
+## [0.4.8] - 2026-03-28
+### Added
+- Lesson completion progress milestones
+- Notification when reaching 25%, 50%, 75%, 100% of a path
