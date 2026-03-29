@@ -174,3 +174,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Lesson completion progress milestones
 - Notification when reaching 25%, 50%, 75%, 100% of a path
+
+## [0.4.9] - 2026-03-29
+### Changed
+- Updated color palette for WCAG 2.1 AA contrast compliance
+- Improved typography scale using Inter variable font
