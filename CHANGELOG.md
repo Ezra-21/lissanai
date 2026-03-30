@@ -179,3 +179,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Updated color palette for WCAG 2.1 AA contrast compliance
 - Improved typography scale using Inter variable font
+
+## [0.4.10] - 2026-03-30
+### Added
+- CSV and JSON export for user progress data
+- Download button in profile settings panel
