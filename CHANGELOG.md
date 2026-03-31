@@ -184,3 +184,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - CSV and JSON export for user progress data
 - Download button in profile settings panel
+
+## [0.4.11] - 2026-03-31
+### Fixed
+- Streak calculator showing wrong day due to UTC offset
+- Heatmap off by one day for EAT (UTC+3) users
