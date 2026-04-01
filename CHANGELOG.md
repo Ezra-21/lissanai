@@ -189,3 +189,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Streak calculator showing wrong day due to UTC offset
 - Heatmap off by one day for EAT (UTC+3) users
+
+## [0.4.12] - 2026-04-01
+### Added
+- Email notification preferences (weekly digest, streak alerts)
+- One-click unsubscribe link in all notification emails
