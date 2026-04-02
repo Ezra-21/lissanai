@@ -194,3 +194,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Email notification preferences (weekly digest, streak alerts)
 - One-click unsubscribe link in all notification emails
+
+## [0.4.13] - 2026-04-02
+### Changed
+- Refactored compound components using Radix UI primitives
+- Improved accessibility with slot pattern and forwarded refs
