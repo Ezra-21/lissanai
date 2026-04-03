@@ -199,3 +199,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Refactored compound components using Radix UI primitives
 - Improved accessibility with slot pattern and forwarded refs
+
+## [0.4.14] - 2026-04-03
+### Added
+- Interview category filter and keyword search
+- Saved custom question bank per user
