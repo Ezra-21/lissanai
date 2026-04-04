@@ -204,3 +204,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Interview category filter and keyword search
 - Saved custom question bank per user
+
+## [0.4.15] - 2026-04-04
+### Fixed
+- Audio playback failing silently in Safari (codec mismatch)
+- Added MIME type fallback chain: webm → mp4 → ogg
