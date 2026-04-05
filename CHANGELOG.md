@@ -209,3 +209,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Audio playback failing silently in Safari (codec mismatch)
 - Added MIME type fallback chain: webm → mp4 → ogg
+
+## [0.4.16] - 2026-04-05
+### Added
+- Contextual AI coaching tips after each practice session
+- Personalized improvement suggestions based on session history
