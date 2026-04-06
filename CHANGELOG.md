@@ -214,3 +214,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Contextual AI coaching tips after each practice session
 - Personalized improvement suggestions based on session history
+
+## [0.4.17] - 2026-04-06
+### Changed
+- Lazy-loaded SiriWave and heatmap components with React.lazy
+- Reduced initial JS bundle by ~38%
