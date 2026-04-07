@@ -219,3 +219,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Lazy-loaded SiriWave and heatmap components with React.lazy
 - Reduced initial JS bundle by ~38%
+
+## [0.4.18] - 2026-04-07
+### Added
+- AI-generated weekly study plan based on user goals
+- Calendar view for planned study sessions
