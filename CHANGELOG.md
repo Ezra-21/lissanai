@@ -224,3 +224,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - AI-generated weekly study plan based on user goals
 - Calendar view for planned study sessions
+
+## [0.4.19] - 2026-04-08
+### Fixed
+- Grammar scorer returning NaN for punctuation-only input
+- API 500 instead of 400 for invalid/empty text body
