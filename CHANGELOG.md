@@ -229,3 +229,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Grammar scorer returning NaN for punctuation-only input
 - API 500 instead of 400 for invalid/empty text body
+
+## [0.4.20] - 2026-04-11
+### Changed
+- All form fields include ARIA labels and describedby
+- Focus-visible styles added for keyboard-only navigation
