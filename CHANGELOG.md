@@ -234,3 +234,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - All form fields include ARIA labels and describedby
 - Focus-visible styles added for keyboard-only navigation
+
+## [0.4.21] - 2026-04-12
+### Added
+- Full-text search across all lesson titles and content
+- Search results sorted by relevance score
