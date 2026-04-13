@@ -239,3 +239,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Full-text search across all lesson titles and content
 - Search results sorted by relevance score
+
+## [0.4.22] - 2026-04-13
+### Fixed
+- Race condition when user types quickly in grammar check
+- Debounced API call at 500ms to prevent overlapping requests
