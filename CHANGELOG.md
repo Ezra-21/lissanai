@@ -244,3 +244,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Race condition when user types quickly in grammar check
 - Debounced API call at 500ms to prevent overlapping requests
+
+## [0.4.23] - 2026-04-14
+### Changed
+- Interview page split into QuestionPanel, AnswerInput, FeedbackCard
+- Components are now independently testable and reusable
