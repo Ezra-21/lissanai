@@ -249,3 +249,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Interview page split into QuestionPanel, AnswerInput, FeedbackCard
 - Components are now independently testable and reusable
+
+## [0.5.0] - 2026-04-16
+### Added
+- Offline mode detection with reconnection status banner
+- Failed requests queued and replayed on reconnect
