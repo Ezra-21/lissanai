@@ -254,3 +254,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Offline mode detection with reconnection status banner
 - Failed requests queued and replayed on reconnect
+
+## [0.5.1] - 2026-04-17
+### Fixed
+- Next.js hydration warning from server/client HTML mismatch
+- Theme class injected before hydration using suppressHydrationWarning
