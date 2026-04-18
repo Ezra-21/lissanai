@@ -259,3 +259,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Next.js hydration warning from server/client HTML mismatch
 - Theme class injected before hydration using suppressHydrationWarning
+
+## [0.5.2] - 2026-04-18
+### Added
+- React Error Boundary wrapping all major page sections
+- User-friendly error fallback UI with retry and report buttons
