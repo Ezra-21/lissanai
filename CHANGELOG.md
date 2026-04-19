@@ -264,3 +264,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - React Error Boundary wrapping all major page sections
 - User-friendly error fallback UI with retry and report buttons
+
+## [0.5.3] - 2026-04-19
+### Changed
+- Dashboard metric cards redesigned with clearer hierarchy
+- Consistent 8px spacing grid applied across layout
