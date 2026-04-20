@@ -269,3 +269,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Dashboard metric cards redesigned with clearer hierarchy
 - Consistent 8px spacing grid applied across layout
+
+## [0.5.4] - 2026-04-20
+### Added
+- 3-step onboarding wizard for new users
+- Goal selection: Interview Prep, Writing, Speaking, General
