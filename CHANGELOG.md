@@ -274,3 +274,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - 3-step onboarding wizard for new users
 - Goal selection: Interview Prep, Writing, Speaking, General
+
+## [0.5.5] - 2026-04-21
+### Fixed
+- Password reset token not expiring after 1 hour
+- Reset link reusable after first use (now single-use)
