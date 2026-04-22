@@ -279,3 +279,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Password reset token not expiring after 1 hour
 - Reset link reusable after first use (now single-use)
+
+## [0.5.6] - 2026-04-22
+### Added
+- Rate limiting middleware (60 req/min public, 200 auth)
+- Custom 429 error page with retry-after countdown
