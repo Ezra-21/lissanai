@@ -284,3 +284,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Rate limiting middleware (60 req/min public, 200 auth)
 - Custom 429 error page with retry-after countdown
+
+## [0.5.7] - 2026-04-23
+### Changed
+- Switched from barrel imports to direct module imports
+- Tree-shook unused lucide-react icons (-42 kB gzipped)
