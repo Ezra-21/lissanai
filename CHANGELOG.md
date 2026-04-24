@@ -289,3 +289,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Switched from barrel imports to direct module imports
 - Tree-shook unused lucide-react icons (-42 kB gzipped)
+
+## [0.5.8] - 2026-04-24
+### Added
+- User activity log with type filter (lesson, grammar, interview)
+- Activity export as CSV with date range selection
