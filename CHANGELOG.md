@@ -294,3 +294,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - User activity log with type filter (lesson, grammar, interview)
 - Activity export as CSV with date range selection
+
+## [0.5.9] - 2026-04-25
+### Fixed
+- Mobile nav drawer not closing on route change
+- z-index conflict between drawer overlay and toast stack
