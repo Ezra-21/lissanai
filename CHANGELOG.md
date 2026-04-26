@@ -299,3 +299,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Mobile nav drawer not closing on route change
 - z-index conflict between drawer overlay and toast stack
+
+## [0.5.10] - 2026-04-26
+### Added
+- Streaming AI responses using Server-Sent Events (SSE)
+- Token-by-token display for interview and grammar feedback
