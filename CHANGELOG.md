@@ -304,3 +304,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Streaming AI responses using Server-Sent Events (SSE)
 - Token-by-token display for interview and grammar feedback
+
+## [0.5.11] - 2026-04-27
+### Changed
+- README updated with production screenshots (all 9 pages)
+- Added video demo link and live app URL
