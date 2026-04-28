@@ -309,3 +309,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - README updated with production screenshots (all 9 pages)
 - Added video demo link and live app URL
+
+## [0.5.12] - 2026-04-28
+### Changed
+- All API routes now return consistent AppError-shaped responses
+- Unified error logging to console in development mode
