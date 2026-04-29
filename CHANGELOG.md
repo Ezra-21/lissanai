@@ -314,3 +314,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - All API routes now return consistent AppError-shaped responses
 - Unified error logging to console in development mode
+
+## [0.5.13] - 2026-04-29
+### Added
+- Grammar rule explanations with example sentences
+- "Learn more" link for each grammar rule type
