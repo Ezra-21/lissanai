@@ -319,3 +319,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Grammar rule explanations with example sentences
 - "Learn more" link for each grammar rule type
+
+## [0.5.14] - 2026-04-30
+### Fixed
+- Redux derived-state selectors recomputing on every render
+- Added createSelector memoization for user stats computations
