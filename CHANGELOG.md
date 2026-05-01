@@ -324,3 +324,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Redux derived-state selectors recomputing on every render
 - Added createSelector memoization for user stats computations
+
+## [0.5.15] - 2026-05-01
+### Added
+- IPA phonetic transcription displayed next to practice words
+- Reference audio playback button for each target word
