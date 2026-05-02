@@ -329,3 +329,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - IPA phonetic transcription displayed next to practice words
 - Reference audio playback button for each target word
+
+## [0.5.16] - 2026-05-02
+### Changed
+- Button component: added sm/md/lg/xl size variants
+- Input and Textarea: added error state styling
