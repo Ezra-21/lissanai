@@ -334,3 +334,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Button component: added sm/md/lg/xl size variants
 - Input and Textarea: added error state styling
+
+## [0.5.17] - 2026-05-04
+### Fixed
+- Auth access token not refreshed when expiring within 5 minutes
+- Added proactive 5-minute refresh window in session callback
