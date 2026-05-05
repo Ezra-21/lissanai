@@ -339,3 +339,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Auth access token not refreshed when expiring within 5 minutes
 - Added proactive 5-minute refresh window in session callback
+
+## [0.5.18] - 2026-05-05
+### Added
+- Pomodoro-style 25/5 study session timer
+- Session break reminders with optional sound notification
