@@ -344,3 +344,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Pomodoro-style 25/5 study session timer
 - Session break reminders with optional sound notification
+
+## [0.5.19] - 2026-05-06
+### Changed
+- AI response p95 latency improved from 3.2s → 1.1s
+- All text-generation endpoints now stream via SSE
