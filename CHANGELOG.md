@@ -349,3 +349,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - AI response p95 latency improved from 3.2s → 1.1s
 - All text-generation endpoints now stream via SSE
+
+## [0.5.20] - 2026-05-07
+### Added
+- Interview session history with message playback
+- Exportable session transcripts in Markdown format
