@@ -354,3 +354,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Interview session history with message playback
 - Exportable session transcripts in Markdown format
+
+## [0.5.21] - 2026-05-08
+### Fixed
+- Progress heatmap not re-rendering on window resize
+- SVG viewBox overflow on screens narrower than 360px
