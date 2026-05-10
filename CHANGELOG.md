@@ -359,3 +359,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Progress heatmap not re-rendering on window resize
 - SVG viewBox overflow on screens narrower than 360px
+
+## [0.5.22] - 2026-05-10
+### Added
+- Custom interview question set creation (up to 20 questions)
+- Question sets shareable via unique URL
