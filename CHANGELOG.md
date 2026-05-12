@@ -364,3 +364,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Custom interview question set creation (up to 20 questions)
 - Question sets shareable via unique URL
+
+## [0.5.23] - 2026-05-12
+### Fixed
+- Email template regex not matching multi-word variable names
+- {{first_name}} and similar variables now substituted correctly
