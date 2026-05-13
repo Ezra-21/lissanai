@@ -369,3 +369,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Email template regex not matching multi-word variable names
 - {{first_name}} and similar variables now substituted correctly
+
+## [0.5.24] - 2026-05-13
+### Added
+- Achievement sharing cards (Twitter/LinkedIn-optimized)
+- Auto-generated OG image for each achievement unlock
