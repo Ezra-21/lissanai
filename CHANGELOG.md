@@ -374,3 +374,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Achievement sharing cards (Twitter/LinkedIn-optimized)
 - Auto-generated OG image for each achievement unlock
+
+## [0.5.25] - 2026-05-14
+### Changed
+- Eliminated N+1 query patterns in learning path endpoints
+- All list endpoints now paginated with cursor-based pagination
