@@ -379,3 +379,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Eliminated N+1 query patterns in learning path endpoints
 - All list endpoints now paginated with cursor-based pagination
+
+## [0.5.26] - 2026-05-15
+### Added
+- Manual light/dark/system theme toggle in header and settings
+- Theme preference synced across browser tabs via storage event
