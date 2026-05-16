@@ -384,3 +384,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Manual light/dark/system theme toggle in header and settings
 - Theme preference synced across browser tabs via storage event
+
+## [0.5.27] - 2026-05-16
+### Fixed
+- Speech synthesis choosing wrong voice in Chromium on Linux
+- Voice selected by matching lang="en-US" with quality fallback
