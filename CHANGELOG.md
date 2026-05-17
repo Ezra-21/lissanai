@@ -389,3 +389,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Speech synthesis choosing wrong voice in Chromium on Linux
 - Voice selected by matching lang="en-US" with quality fallback
+
+## [0.5.28] - 2026-05-17
+### Added
+- Weekly progress digest email (opt-in via preferences)
+- Digest summarizes streak, lessons, top improvement areas
