@@ -394,3 +394,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Weekly progress digest email (opt-in via preferences)
 - Digest summarizes streak, lessons, top improvement areas
+
+## [0.5.29] - 2026-05-18
+### Changed
+- Final production-quality UI pass across all 9 pages
+- Consistent shadow tokens, border-radius, and spacing scale
