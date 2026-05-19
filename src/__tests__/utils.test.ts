@@ -32,3 +32,9 @@ describe("clamp", () => {
 describe("calculateStreak", () => {
   it("returns 0 for empty array", () => expect(calculateStreak([])).toBe(0));
 });
+
+describe("isStrongPassword", () => {
+  it("accepts strong password", () => expect(isStrongPassword("Secure123")).toBe(true));
+  it("rejects short password", () => expect(isStrongPassword("abc")).toBe(false));
+  it("rejects password without uppercase", () => expect(isStrongPassword("secure123")).toBe(false));
+});
