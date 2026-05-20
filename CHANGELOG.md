@@ -399,3 +399,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Final production-quality UI pass across all 9 pages
 - Consistent shadow tokens, border-radius, and spacing scale
+
+## [0.5.30] - 2026-05-20
+### Added
+- SEO meta tags for all public-facing pages
+- Open Graph and Twitter Card support for link previews
