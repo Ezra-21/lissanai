@@ -404,3 +404,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - SEO meta tags for all public-facing pages
 - Open Graph and Twitter Card support for link previews
+
+## [0.5.31] - 2026-05-21
+### Fixed
+- CORS headers missing on API routes when called from mobile app
+- OPTIONS preflight response now returns 204 with correct headers
