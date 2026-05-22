@@ -409,3 +409,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - CORS headers missing on API routes when called from mobile app
 - OPTIONS preflight response now returns 204 with correct headers
+
+## [0.5.32] - 2026-05-22
+### Changed
+- API documentation expanded with error shapes and rate limits
+- Added Postman collection link in API.md
