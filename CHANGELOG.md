@@ -414,3 +414,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - API documentation expanded with error shapes and rate limits
 - Added Postman collection link in API.md
+
+## [0.5.33] - 2026-05-23
+### Added
+- GDPR data export (JSON) downloadable from profile settings
+- Account deletion with confirmation dialog and data purge
