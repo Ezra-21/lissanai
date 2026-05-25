@@ -419,3 +419,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - GDPR data export (JSON) downloadable from profile settings
 - Account deletion with confirmation dialog and data purge
+
+## [0.5.34] - 2026-05-25
+### Fixed
+- Loading spinner persisting after data load completes
+- useEffect cleanup prevents setState on unmounted components
