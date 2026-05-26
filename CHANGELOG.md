@@ -424,3 +424,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Loading spinner persisting after data load completes
 - useEffect cleanup prevents setState on unmounted components
+
+## [0.5.35] - 2026-05-26
+### Changed
+- Deduplicated in-flight identical API requests using promise map
+- Prevents duplicate charges for concurrent OpenAI calls
