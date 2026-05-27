@@ -429,3 +429,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Deduplicated in-flight identical API requests using promise map
 - Prevents duplicate charges for concurrent OpenAI calls
+
+## [0.5.36] - 2026-05-27
+### Added
+- Admin analytics: DAU, MAU, feature usage breakdown, error rate
+- Charts rendered with lightweight canvas-based library
