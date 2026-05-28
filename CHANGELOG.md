@@ -434,3 +434,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Admin analytics: DAU, MAU, feature usage breakdown, error rate
 - Charts rendered with lightweight canvas-based library
+
+## [0.5.37] - 2026-05-28
+### Fixed
+- TypeScript strict null check violations in API route handlers
+- 6 build warnings eliminated by adding proper type guards
