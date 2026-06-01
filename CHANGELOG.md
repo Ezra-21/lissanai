@@ -439,3 +439,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - TypeScript strict null check violations in API route handlers
 - 6 build warnings eliminated by adding proper type guards
+
+## [0.5.38] - 2026-06-01
+### Added
+- In-app feedback form (bug report / feature request)
+- Submissions visible in admin dashboard
