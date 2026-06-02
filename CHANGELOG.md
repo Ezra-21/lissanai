@@ -444,3 +444,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - In-app feedback form (bug report / feature request)
 - Submissions visible in admin dashboard
+
+## [0.5.39] - 2026-06-02
+### Fixed
+- Dashboard timestamps showing UTC instead of user local timezone
+- Browser Intl API now used for all date displays
