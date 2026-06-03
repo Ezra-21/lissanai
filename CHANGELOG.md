@@ -449,3 +449,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Dashboard timestamps showing UTC instead of user local timezone
 - Browser Intl API now used for all date displays
+
+## [0.5.40] - 2026-06-03
+### Changed
+- All images migrated to next/image with blur placeholder
+- LCP (Largest Contentful Paint) improved by ~0.8s
