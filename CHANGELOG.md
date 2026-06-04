@@ -454,3 +454,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - All images migrated to next/image with blur placeholder
 - LCP (Largest Contentful Paint) improved by ~0.8s
+
+## [0.5.41] - 2026-06-04
+### Added
+- Shareable achievement cards for Twitter, LinkedIn, Telegram
+- Dynamic OG image generated per achievement on the fly
