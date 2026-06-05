@@ -459,3 +459,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Shareable achievement cards for Twitter, LinkedIn, Telegram
 - Dynamic OG image generated per achievement on the fly
+
+## [0.5.42] - 2026-06-05
+### Fixed
+- Accessibility audit: 11 WCAG 2.1 Level AA violations resolved
+- Added alt text, skip-nav link, and ARIA live regions
