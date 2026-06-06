@@ -464,3 +464,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 - Accessibility audit: 11 WCAG 2.1 Level AA violations resolved
 - Added alt text, skip-nav link, and ARIA live regions
+
+## [0.5.43] - 2026-06-06
+### Changed
+- Final responsive pass: fixed overlapping elements at 375px
+- Bottom navigation bar for mobile (375-640px viewports)
