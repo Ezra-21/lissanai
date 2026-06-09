@@ -469,3 +469,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Final responsive pass: fixed overlapping elements at 375px
 - Bottom navigation bar for mobile (375-640px viewports)
+
+## [0.9.9] - 2026-06-09
+### Changed
+- Removed 4 unused npm packages (saved ~12MB install size)
+- Cleaned up 23 dead code paths from early prototyping
