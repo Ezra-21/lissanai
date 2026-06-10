@@ -474,3 +474,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - Removed 4 unused npm packages (saved ~12MB install size)
 - Cleaned up 23 dead code paths from early prototyping
+
+## [1.0.0] - 2026-06-10
+### Added
+- Production deployment configuration and checklist
+### Changed
+- All 5 core features stable and production-ready
+- Version bumped to 1.0.0
