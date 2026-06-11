@@ -2,7 +2,7 @@
 
 # 🗣️ LissanAI
 
-### AI-Powered English Communication Coach for Ethiopians 🇪🇹
+### AI-Powered English Communication Coach
 
 *Speak with confidence. Write with clarity. Land the opportunity.*
 
@@ -103,24 +103,3 @@ Detailed guides live in the [`docs/`](./docs) folder:
 - [User Guide](./docs/USER_GUIDE.md)
 - [Deployment Guide](./docs/DEPLOYMENT.md)
 - [Contributing](./docs/CONTRIBUTING.md)
-
----
-
-## 👩‍💻 Authors
-
-- [@sidocoder](https://github.com/sidocoder)
-- [@Isru10](https://github.com/Isru10)
-- [@annah11](https://github.com/annah11)
-- [@Ezra-21](https://github.com/Ezra-21)
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-<div align="center">
-
-Made with ❤️ for Ethiopia 🇪🇹
-
-</div>
