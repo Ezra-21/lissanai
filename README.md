@@ -1,141 +1,126 @@
-# LissanAI  
-AI-Powered English Communication Coach for Ethiopians 🇪🇹  
+<div align="center">
 
-LissanAI is a web application designed to help Ethiopians improve their professional English communication skills for interviews, emails, and global opportunities. It provides interactive lessons, mock interviews, grammar feedback, and real-time speech practice.  
+# 🗣️ LissanAI
 
----
+### AI-Powered English Communication Coach for Ethiopians 🇪🇹
 
-## ✨ Features  
+*Speak with confidence. Write with clarity. Land the opportunity.*
 
-### 🔐 User Authentication & Authorization  
-- Secure signup/login flow  
-- Role-based system (Learner, Admin)  
-- Protected routes & components  
-
-### 📱 Responsive Design  
-- Mobile-first approach  
-- Cross-browser compatibility  
-- Clean, modern UI/UX with Tailwind CSS  
-
-### ⚡ State Management  
-- Redux Toolkit for global state  
-- RTK Query for API calls  
-- Optimized performance & caching  
-
-### 🖥️ Core Pages 
-- 🧑‍💼 Mock Interviews
-    Simulate real job interviews (e.g., “Software Developer Interview”) and receive real-time AI feedback on your answers.
-
-- ✍️ Grammar & Clarity Feedback
-    Input text or speech and get instant corrections, style improvements, and clarity scoring tailored to professional contexts.
-
-- 📧 Email Drafting
-    Write in Amharic or English → AI generates polished, professional emails using templates for job applications and business communication.
-
-- 🎤 Pronunciation Coach
-    Practice speaking English; AI analyzes your speech, highlights issues, and provides gentle, non-judgmental guidance to improve pronunciation.
-
-- 📚 Learning Page
-    Access structured English lessons and quizzes to practice grammar, vocabulary, and tenses.
-    Track your progress and achievements over time.
-
-### 🧩 Component Architecture  
-- Reusable UI components  
-- Modular and maintainable structure  
-- Consistent styling with Tailwind CSS  
-
-### 📝 Core Functionalities  
-- **Learning Modules** → Category-based lessons  
-- **Mock Interviews** → Practice interviews with AI feedback  
-- **Grammar Check** → Real-time grammar suggestions  
-- **Email Drafting and improvement** → AI-assisted email writing & corrections  
-- **Speaking Practice and pronunciation coach** → Record and get feedback on pronunciation & fluency  
+</div>
 
 ---
 
-## 👩‍💻 Authors  
+## 📖 Overview
 
-- @sidocoder 
-- @Isru10
-- @annah11
-- @Ezra-21 
+**LissanAI** is a modern web application that helps Ethiopians master professional
+English communication for interviews, emails, and global career opportunities.
+
+Many talented professionals are held back not by their skills, but by the language
+barrier that stands between them and the global job market. LissanAI bridges that
+gap with a friendly, AI-powered coach that is available anytime — offering
+real-time feedback, structured lessons, and judgement-free practice so every
+learner can communicate with confidence.
+
+From simulating real job interviews to polishing a professional email written in
+Amharic, LissanAI turns everyday practice into measurable progress.
 
 ---
 
-## 🚀 Installation  
+## ✨ What You Can Do
 
-1. Clone the repository:  
+| Feature | Description |
+|--------|-------------|
+| 🧑‍💼 **Mock Interviews** | Simulate realistic job interviews and receive instant, AI-driven feedback on your answers. |
+| ✍️ **Grammar & Clarity** | Paste any text and get corrections, style suggestions, and a professional clarity score. |
+| 📧 **Email Drafting** | Write rough notes in Amharic or English and let the AI craft a polished, professional email. |
+| 🎤 **Pronunciation Coach** | Practice speaking and receive gentle, word-by-word guidance to sharpen your pronunciation. |
+| 📚 **Learning Paths** | Follow structured lessons and quizzes covering grammar, vocabulary, and tenses. |
+| 📊 **Progress Tracking** | Stay motivated with streaks, achievements, and an activity heatmap of your journey. |
+
+---
+
+## 🛠️ Built With
+
+- **[Next.js 15](https://nextjs.org/)** (App Router) + **React 19** + **TypeScript**
+- **[Tailwind CSS v4](https://tailwindcss.com/)** for a clean, responsive, mobile-first UI
+- **[Redux Toolkit](https://redux-toolkit.js.org/)** & RTK Query for state and data fetching
+- **[NextAuth.js](https://next-auth.js.org/)** for secure authentication
+- **[OpenAI](https://openai.com/)** for AI-powered feedback and generation
+- **[Framer Motion](https://www.framer.com/motion/)** for smooth, delightful animations
+
+---
+
+## 🚀 Getting Started
+
+### Run Locally
+
 ```bash
-git clone https://github.com/sidocoder/lissanai.git
+# 1. Clone the repository
+git clone https://github.com/Ezra-21/lissanai.git
 cd lissanai
-```
-2. Install dependencies:
-```bash 
-npm install
-```
-3. Set up environment variables:
-```bash  
-cp example.env .env.local
-```
-Update .env.local with your values.
 
-4. Run the development server:
-```bash
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment variables
+cp .env.example .env.local   # then fill in your values
+
+# 4. Start the development server
 npm run dev
 ```
 
-5. Now open your browser at:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Run with Docker
+
 ```bash
-👉 http://localhost:3000
+# Build the image
+docker build -t lissanai .
+
+# Run the container (provide your env file)
+docker run -p 3000:3000 --env-file .env.local lissanai
 ```
----
 
-## 🧪 Running Tests
-
-(Coming soon...)
-
-### Unit Tests (Jest)
-
-```bash 
-npm run test 
-```
-### Watch Mode
-```bash
-npm run test:watch
-```
-### E2E Tests (Cypress)
-```bash
-npm run cypress:open
-```
---- 
-
-## 📸 Screenshots
-
-### Landing Page → Hero section with mascot animation.
-![Alt text](./public/images/landingpage.png)
-
-### Features Section → 
-![Alt text](./public/images/features.png)
-### Mock Interview Page → Example of Q&A with AI feedback.
-![Alt text](./public/images/mockinterviewpage.png)
-### Grammar & Clarity Page → A sentence being corrected in real-time.
-![Alt text](./public/images/grammarpage.png)
-
-### Email Drafting Page → Amharic → English email conversion with AI template.
-![Alt text](./public/images/emaildraftingpage.png)
-
-### Pronunciation Coach → UI showing speech analysis / feedback.
-![Alt text](./public/images/pronunciationpage.png)
-
-### Learning Page → English lessons with quiz and progress tracker.
-![Alt text](./public/images/learn.png)
-
-### Dashboard page→ Personalized user progress overview.
-![Alt text](./public/images/dashboardpage.png)
-### Profile page→ Personalized user profile.
-![Alt text](./public/images/profilepage.png)
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-### 📜 License
-This project is licensed under the MIT License.
+## 🧪 Testing
+
+```bash
+npm run test            # Unit tests (Jest)
+npm run cypress:open    # End-to-end tests (Cypress)
+```
+
+---
+
+## 📚 Documentation
+
+Detailed guides live in the [`docs/`](./docs) folder:
+
+- [Architecture Overview](./docs/ARCHITECTURE.md)
+- [API Reference](./docs/API.md)
+- [User Guide](./docs/USER_GUIDE.md)
+- [Deployment Guide](./docs/DEPLOYMENT.md)
+- [Contributing](./docs/CONTRIBUTING.md)
+
+---
+
+## 👩‍💻 Authors
+
+- [@sidocoder](https://github.com/sidocoder)
+- [@Isru10](https://github.com/Isru10)
+- [@annah11](https://github.com/annah11)
+- [@Ezra-21](https://github.com/Ezra-21)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+<div align="center">
+
+Made with ❤️ for Ethiopia 🇪🇹
+
+</div>
